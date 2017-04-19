@@ -1,0 +1,13 @@
+<Hospede>
+  <id>1</id>
+  <nome>Leonardo Carmona</nome>
+  <rua>Av. Unisinos</rua>
+  <numero>950</numero>
+  <bairro>Cristo Rei</bairro>
+  <cidade>São Leopoldo</cidade>
+  <estado>RS</estado>
+  <ddd>51</ddd>
+  <telefone>35911112</telefone>
+  <dataDeRegistro>1490473591673</dataDeRegistro>
+</Hospede>
+

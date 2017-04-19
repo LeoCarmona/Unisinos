@@ -1,0 +1,29 @@
+{
+  "id" : 1,
+  "produto" : "Coca-Cola Lata",
+  "preco" : 4.5,
+  "quantidade" : 3,
+  "dataDoConsumo" : 1490473591716,
+  "hospedagem" : {
+    "id" : 1,
+    "dataDeEntrada" : 1490473591715,
+    "dataDeSaida" : null,
+    "hospede" : {
+      "id" : 1,
+      "nome" : "Leonardo Carmona",
+      "rua" : "Av. Unisinos",
+      "numero" : 950,
+      "bairro" : "Cristo Rei",
+      "cidade" : "São Leopoldo",
+      "estado" : "RS",
+      "ddd" : 51,
+      "telefone" : 35911112,
+      "dataDeRegistro" : 1490473591673
+    },
+    "quarto" : {
+      "id" : 1,
+      "diaria" : 50.0,
+      "descricao" : "Quarto 1"
+    }
+  }
+}

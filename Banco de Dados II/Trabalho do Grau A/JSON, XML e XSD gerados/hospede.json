@@ -1,0 +1,12 @@
+{
+  "id" : 1,
+  "nome" : "Leonardo Carmona",
+  "rua" : "Av. Unisinos",
+  "numero" : 950,
+  "bairro" : "Cristo Rei",
+  "cidade" : "São Leopoldo",
+  "estado" : "RS",
+  "ddd" : 51,
+  "telefone" : 35911112,
+  "dataDeRegistro" : 1490473591673
+}

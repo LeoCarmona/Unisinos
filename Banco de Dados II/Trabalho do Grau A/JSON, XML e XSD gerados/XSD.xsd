@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="hospedagem">
+    <xs:sequence>
+      <xs:element name="dataDeEntrada" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="dataDeSaida" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="hospede" type="hospede" minOccurs="0"/>
+      <xs:element name="id" type="xs:long" minOccurs="0"/>
+      <xs:element name="quarto" type="quarto" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="hospede">
+    <xs:sequence>
+      <xs:element name="bairro" type="xs:string" minOccurs="0"/>
+      <xs:element name="cidade" type="xs:string" minOccurs="0"/>
+      <xs:element name="dataDeRegistro" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="ddd" type="xs:int" minOccurs="0"/>
+      <xs:element name="estado" type="xs:string" minOccurs="0"/>
+      <xs:element name="id" type="xs:long" minOccurs="0"/>
+      <xs:element name="nome" type="xs:string" minOccurs="0"/>
+      <xs:element name="numero" type="xs:int" minOccurs="0"/>
+      <xs:element name="rua" type="xs:string" minOccurs="0"/>
+      <xs:element name="telefone" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="quarto">
+    <xs:sequence>
+      <xs:element name="descricao" type="xs:string" minOccurs="0"/>
+      <xs:element name="diaria" type="xs:double" minOccurs="0"/>
+      <xs:element name="id" type="xs:long" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="consumo">
+    <xs:sequence>
+      <xs:element name="dataDoConsumo" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="hospedagem" type="hospedagem" minOccurs="0"/>
+      <xs:element name="id" type="xs:long" minOccurs="0"/>
+      <xs:element name="preco" type="xs:double" minOccurs="0"/>
+      <xs:element name="produto" type="xs:string" minOccurs="0"/>
+      <xs:element name="quantidade" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
